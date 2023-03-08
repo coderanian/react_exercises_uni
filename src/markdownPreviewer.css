@@ -1,0 +1,30 @@
+img{
+    display: block;
+    max-width: 75%;
+    height: auto;
+    margin: auto;
+    padding-top: 3vh;
+}
+
+table, th, td{
+    border: black solid 1px;
+}
+table{
+    width: 100%;
+    margin-bottom: 3vh;
+}
+th, td{
+    padding: 1%;
+    background: lightgray;
+}
+
+th{
+    background: #121212;
+    color: white;
+}
+
+pre{
+    background: #121212;
+    color: white;
+    padding: 2%;
+}

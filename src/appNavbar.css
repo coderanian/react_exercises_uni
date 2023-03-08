@@ -1,0 +1,32 @@
+body,html{
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+main{
+    padding-top: 5vh;
+    flex-grow: 1;
+    justify-self: center;
+}
+
+main > section{
+    min-height: 85vh;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+
+
